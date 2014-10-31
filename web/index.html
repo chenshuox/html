@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIMPLE</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="logo"><img width="180" src="images/logo.png" /></div>
+		<div class="search">
+			<form>
+				<input type="text" class="text" />
+				<input type="submit" class="sub" value="SEARCH" />
+			</form>
+		</div>
+		<div class="clear"></div>
+		<div class="nav">
+			<ul>
+				<li><a class="on" href="index.html">Home</a></li>
+				<li><a href="index.html">About</a></li>
+				<li><a href="index.html">Services</a></li>
+				<li><a href="index.html">Referencies</a></li>
+				<li><a href="index.html">Detail</a></li>
+				<li><a href="index.html">Blog</a></li>
+				<li><a href="index.html">Features</a></li>
+				<li><a href="index.html">Contens</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="section">
+		<div class="slider">
+			<div id="slideBox" class="slideBox">
+				<div class="hd">
+					<ul><li>1</li><li>2</li><li>3</li><li>4</li></ul>
+				</div>
+				<div class="bd">
+					<ul>
+						<li><a href=""><img src="images/05.png" /></a></li>
+						<li><a href=""><img src="images/04.png" /></a></li>
+						<li><a href=""><img src="images/02.png" /></a></li>
+						<li><a href=""><img src="images/03.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="list">
+			<dl>
+				<dt><img width="200" height="169" src="images/10.jpg" /></dt>
+				<dd>
+					<h3>APPLICATION</h3>
+					<p>Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer commodo tristique odio.</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img width="200" src="images/09.jpg" /></dt>
+				<dd>
+					<h3>APPLICATION</h3>
+					<p>Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer commodo tristique odio.</p>
+				</dd>
+			</dl>
+		</div>
+		<div class="send">
+			<div class="my">
+				<form>
+					<p><input type="text" class="text" placeholder="name" /></p>
+					<p><input type="text" class="text" placeholder="mail" /></p>
+					<p><textarea></textarea></p>
+					<p><input type="submit" class="sub" value="SEND" /></p>
+				</form>
+			</div>
+			<div class="article">
+				<h3>TECHNOLOGIES</h3>
+				<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul</p>
+				<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul</p>
+				<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul</p>
+				<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p> art is <span>timeless</span>Copyright © 2014.Company chenshuo All rights reserved.</p>
+	</div>
+	<script type="text/javascript">
+		jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+	</script>
+</body>
+</html>
