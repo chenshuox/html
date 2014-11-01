@@ -1,0 +1,148 @@
+/*	globel
+--------------------------------*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #E6E6E6;
+}
+ul li{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+img{
+	border: none;
+}
+.header{
+	width: 960px;
+	height: 50px;
+	background: #ffffff;
+	margin: 15px auto 0px;
+}
+.header ul li{
+	float: left;
+	list-style-type: none;
+}
+
+.header ul li a{
+	display: block;
+	
+}
+.header ul li.nav{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.header ul li.nav a{
+	width: 90px;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	color: #333333;
+	text-decoration: none;
+	font-size: 14px;
+	border-right: 1px dashed #333;
+}
+.header ul li.bg1{
+	background: #d2d2d2;
+}
+.header ul li.bg1 a{
+	border: none;
+}
+.header ul li.bg2{
+	background: #A1A1A1;
+}
+.header ul li.bg2 a{
+	color: #ffffff;
+}
+
+.header ul li.bg2 a{
+	
+	border: none;
+}
+.header ul li.on a{
+	border-right: 1px dashed #ffffff;
+}
+.header ul li.nav a:hover{
+	color: #FF0000;
+}
+.header ul li.bg3{
+	background: #3C3C3C;
+}
+.header ul li.bg3 a{
+	width: 91px;
+	border-right: 1px dashed #fff;
+	color: #ffffff;
+}
+.slider{
+	width: 960px;
+	margin: 20px auto 0px;
+}
+.section{
+	width: 960px;
+	margin: 20px auto 0px;
+}
+.section h2{
+	padding: 20px 5px 10px;
+}
+.section ul{
+	margin-left: -13px;
+}
+.section ul li{
+	list-style-type: none;
+	float: left;
+	width: 230px;
+	margin-left: 13px;
+	height: 470px;
+	background: #ffffff;
+	margin-top: 12px;
+	display: inline;
+}
+
+.footer{
+	width: 960px;
+	height: 50px;
+	background: #000000;
+	margin: 15px auto 0px;
+}
+.footer ul li{
+	float: left;
+	list-style-type: none;
+}
+
+.footer ul li a{
+	display: block;
+	
+}
+.footer ul li.nav{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.footer ul li.nav a{
+	width: 128px;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	border-right: 1px dashed #ffffff;
+}
+.footer p{
+	text-align: center;
+	line-height: 80px;
+	font-size: 12px;
+}
+/* 本例子css */
+.picFocus{ margin:0 auto;  width:960px;  position:relative;  overflow:hidden;  zoom:1;   }
+.picFocus .hd{ width:100%; overflow:hidden; }
+.picFocus .hd ul{ margin-right:-10px;  overflow:hidden; zoom:1; }
+.picFocus .hd ul li{ padding-top:10px; float:left;  text-align:center;  }
+.picFocus .hd ul li img{ width:111px; height:65px; border-top:3px solid #E6E6E6; cursor:pointer; margin-right:10px;   }
+.picFocus .hd ul li.on{ background:url("../images/slider.png") no-repeat 0px 5px; }
+.picFocus .hd ul li.on img{ border-color:#FC0D1B;  }
+.picFocus .bd li{ vertical-align:middle; }
+.picFocus .bd img{ width:960px; height:420px; display:block;  }
+
